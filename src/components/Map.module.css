@@ -1,0 +1,17 @@
+.map {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.map-container {
+	height: 60%;
+}
+
+
+@media(min-width: 768px) {
+    .map-container {
+        height: 70%;
+    }
+}
